@@ -24,11 +24,14 @@ all layers.
 
 ## Conventions
 
-- Agent manifests live in `agents/` as individual markdown files with YAML
-  frontmatter (name, mode, capabilities, model preferences).
+- `executor-core/` — small-model task execution agents (0.8B executor,
+  file-administrator, NPU inference manager, frontier callers).
+- `query-core/` — large-model query/reasoning agents (9B query, oeracle,
+  IT helpdesk).
+- `node-beta-swarm/` — Node Beta home-node agents (cross-auditor,
+  home-assistant, red-auditor, trend-scraper, web-ingestion).
 - Harness configs in `harnesses/` define how an agent runtime is invoked.
-- Mode definitions in `modes/` describe behavioral presets (executor, query,
-  auditor, etc.).
+- Mode definitions in `modes/` describe behavioral presets.
 - `manifest.jsonl` is the machine-readable index — regenerate, don't hand-edit.
 
 ## Git workflow
