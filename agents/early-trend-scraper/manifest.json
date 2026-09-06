@@ -1,0 +1,11 @@
+{
+  "agent": "early-trend-scraper",
+  "display": "Early-Trend-Scraper",
+  "role": "daily upstream scraper",
+  "tier": "scraper",
+  "model": "executor-0.8b",
+  "node": "Alpha",
+  "memory_scope": "Working-Ephemeral",
+  "tool_allowance": "web fetch, write to references/",
+  "updated": "2026-09-06"
+}

@@ -1,0 +1,11 @@
+{
+  "agent": "npu-inference-manager",
+  "display": "NPU-Inference-Manager",
+  "role": "weight offload balancer",
+  "tier": "system",
+  "model": "n/a (control plane)",
+  "node": "Alpha",
+  "memory_scope": "Working-Ephemeral",
+  "tool_allowance": "QAIRT/GenieX control, node RPC",
+  "updated": "2026-09-06"
+}

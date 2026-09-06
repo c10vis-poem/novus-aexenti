@@ -1,0 +1,11 @@
+{
+  "agent": "red-auditor",
+  "display": "Red Auditor",
+  "role": "INCOGNITO adversarial auditor",
+  "tier": "auditor",
+  "model": "undisclosed",
+  "node": "undisclosed",
+  "memory_scope": "isolated — no vault memory",
+  "tool_allowance": "none in visible tree",
+  "updated": "2026-09-06"
+}

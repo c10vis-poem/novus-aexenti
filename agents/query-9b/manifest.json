@@ -1,0 +1,11 @@
+{
+  "agent": "query-9b",
+  "display": "Query-9B",
+  "role": "meta-prompt compiler",
+  "tier": "query",
+  "model": "Qwen 3.5 9B Q4_0 GGUF (GenieX)",
+  "node": "Alpha",
+  "memory_scope": "Recall + Declarative",
+  "tool_allowance": "vault read, cloud tool calls",
+  "updated": "2026-09-06"
+}

@@ -1,0 +1,11 @@
+{
+  "agent": "oeracle",
+  "display": "Œræcle",
+  "role": "on-device help-desk oracle",
+  "tier": "query-9b",
+  "model": "Qwen 3.5 9B Q4_0 (GenieX/Hexagon)",
+  "node": "Alpha",
+  "memory_scope": "Recall + Declarative",
+  "tool_allowance": "read-only vault, help-desk tools",
+  "updated": "2026-09-06"
+}

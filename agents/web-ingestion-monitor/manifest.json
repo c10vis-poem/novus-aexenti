@@ -1,0 +1,11 @@
+{
+  "agent": "web-ingestion-monitor",
+  "display": "Web-Ingestion-Monitor",
+  "role": "upstream change tracker",
+  "tier": "monitor",
+  "model": "executor-0.8b",
+  "node": "Alpha",
+  "memory_scope": "Declarative",
+  "tool_allowance": "web fetch, diff, write alerts",
+  "updated": "2026-09-06"
+}

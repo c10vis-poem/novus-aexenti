@@ -1,0 +1,11 @@
+{
+  "agent": "executor-0.8b",
+  "display": "Executor-0.8B",
+  "role": "fast task executor",
+  "tier": "executor",
+  "model": "Qwen 3.5 0.8B QAI Hub Genie (NPU-pinned)",
+  "node": "Alpha",
+  "memory_scope": "Working-Ephemeral",
+  "tool_allowance": "tool calls only, no vault write",
+  "updated": "2026-09-06"
+}

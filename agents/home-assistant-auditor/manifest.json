@@ -1,0 +1,11 @@
+{
+  "agent": "home-assistant-auditor",
+  "display": "Home-Assistant-Auditor",
+  "role": "cross-agent HA auditor",
+  "tier": "auditor",
+  "model": "on-device 9B",
+  "node": "Beta",
+  "memory_scope": "Recall",
+  "tool_allowance": "Home Assistant API read",
+  "updated": "2026-09-06"
+}

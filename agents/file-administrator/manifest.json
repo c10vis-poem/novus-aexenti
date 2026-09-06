@@ -1,0 +1,11 @@
+{
+  "agent": "file-administrator",
+  "display": "NovusÆxenti-Housekeeper",
+  "role": "vault file administration",
+  "tier": "admin",
+  "model": "GLM-5.2 (cloud, OpenRouter)",
+  "node": "Delta",
+  "memory_scope": "Declarative + Strategic",
+  "tool_allowance": "full vault write, git",
+  "updated": "2026-09-06"
+}

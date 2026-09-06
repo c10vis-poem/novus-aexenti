@@ -1,0 +1,11 @@
+{
+  "agent": "cross-auditor",
+  "display": "Cross-Auditor",
+  "role": "home-node public auditor",
+  "tier": "auditor",
+  "model": "GLM-5.2 or on-device 9B",
+  "node": "Beta",
+  "memory_scope": "Strategic",
+  "tool_allowance": "read all trajectories, write audit verdicts",
+  "updated": "2026-09-06"
+}

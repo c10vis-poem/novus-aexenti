@@ -1,0 +1,11 @@
+{
+  "agent": "it-helpdesk",
+  "display": "IT-Helpdesk",
+  "role": "IT help desk + manual operator",
+  "tier": "query-9b",
+  "model": "Qwen 3.5 9B",
+  "node": "Alpha",
+  "memory_scope": "Recall",
+  "tool_allowance": "runbooks, device control",
+  "updated": "2026-09-06"
+}
