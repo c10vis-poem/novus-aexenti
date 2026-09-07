@@ -1,0 +1,30 @@
+{
+  "ledger_version": "1.0.0",
+  "last_synced_at": "2026-09-07T02:00:00Z",
+  "active_sessions": [
+    {
+      "session_id": "SESSION-CANON-001",
+      "target_repository": "novus-aexenti",
+      "current_stage": "populating_subsystems",
+      "total_steps": 4,
+      "completed_steps": [
+        "dual_agent_router_populated",
+        "mem0_episodic_populated"
+      ],
+      "in_progress_step": "reasoning_bank_population",
+      "pending_steps": [
+        "root_control_files_generation"
+      ],
+      "checkpoint": {
+        "status": "HEALTHY",
+        "last_verified_file": "rolling_habits.json",
+        "rollback_target": "novus-aexenti/mem0_episodic"
+      }
+    }
+  ],
+  "crash_recovery_protocol": {
+    "enabled": true,
+    "strategy": "idempotent_file_reverification",
+    "on_failure": "halt_and_log_to_unresolved"
+  }
+}

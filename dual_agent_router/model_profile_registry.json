@@ -1,0 +1,51 @@
+{
+  "registry_version": "1.0.0",
+  "updated_at": "2026-09-07T02:00:00Z",
+  "models": {
+    "qwen_0_8b_triage": {
+      "name": "Qwen3.5-0.8B-Instruct",
+      "role": "0.8B_triage",
+      "runtime": "GenieX / llama.cpp",
+      "quantization": "Q4_0",
+      "context_window_tokens": 4096,
+      "max_output_tokens": 512,
+      "hardware_target": "Snapdragon 8 Elite (Hexagon v79 NPU)",
+      "system_prompt_path": "dual_agent_router/prompts/triage_system.md",
+      "parameters": {
+        "temperature": 0.2,
+        "top_p": 0.8,
+        "repeat_penalty": 1.1
+      }
+    },
+    "qwen_9b_executor": {
+      "name": "Qwen3.5-9B-Instruct",
+      "role": "9B_executor",
+      "runtime": "llama.cpp / CUDA",
+      "quantization": "Q4_0",
+      "context_window_tokens": 16384,
+      "max_output_tokens": 4096,
+      "hardware_target": "NVIDIA Jetson Orin Nano Super (CUDA) / Snapdragon NPU",
+      "system_prompt_path": "dual_agent_router/prompts/executor_system.md",
+      "parameters": {
+        "temperature": 0.3,
+        "top_p": 0.9,
+        "repeat_penalty": 1.05
+      }
+    },
+    "gemma_12b_qat_specialist": {
+      "name": "Gemma-4-12B-IT-QAT",
+      "role": "specialist_analytical",
+      "runtime": "llama.cpp",
+      "quantization": "QAT-Q4_0",
+      "context_window_tokens": 8192,
+      "max_output_tokens": 2048,
+      "hardware_target": "Jetson Orin Nano Super (Home Node Beta)",
+      "system_prompt_path": "dual_agent_router/prompts/specialist_system.md",
+      "parameters": {
+        "temperature": 0.2,
+        "top_p": 0.85,
+        "repeat_penalty": 1.15
+      }
+    }
+  }
+}
