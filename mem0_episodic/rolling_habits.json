@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-09-07T02:00:00Z",
+  "active_habits": [
+    {
+      "category": "naming_syntax",
+      "rule": "Never use 'Omni Claw' or 'Omni-Claw' under any circumstances.",
+      "context": "Strict canonical naming mandate. NovÆxopia (novaecopia) is the harness runtime and tool bridge.",
+      "priority": "critical"
+    },
+    {
+      "category": "file_integrity",
+      "rule": "Strict non-destructive file operations. Never modify or delete original source files.",
+      "context": "Originals in __NovÆxorpus(NÆX) and ___Lex-Novi-Æxentis-Copiæ remain 100% untouched.",
+      "priority": "critical"
+    },
+    {
+      "category": "consolidation_philosophy",
+      "rule": "Reject dogmatic 'same files in, same files out' rule. Consolidate, trim fluff, and merge redundant drafts.",
+      "context": "Operator directive authorizes trimming fat and combining non-official drafts into high-density specs.",
+      "priority": "high"
+    },
+    {
+      "category": "retrieval_architecture",
+      "rule": "Maintain strict separation between clean_md, chunk.jsonl, and wiki_md.",
+      "context": "Chunks JSONL is the fast machine-retrieval layer; clean_md is readable documentation; wiki_md is living concept memory.",
+      "priority": "high"
+    },
+    {
+      "category": "tone_and_style",
+      "rule": "Professional, humble, no superlatives ('perfect', 'flawless', '100% correct'), direct and concise.",
+      "context": "Avoid hype or overconfidence. Present verifiable facts and concrete file paths.",
+      "priority": "high"
+    }
+  ]
+}
