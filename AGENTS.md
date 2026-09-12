@@ -1,4 +1,4 @@
-# README.md
+# AGENTS.md
 
 Repository: `novus-aexenti`
 
