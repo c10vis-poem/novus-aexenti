@@ -34,13 +34,13 @@ all layers.
 - Mode definitions in `modes/` describe behavioral presets.
 - `manifest.jsonl` is the machine-readable index — regenerate, don't hand-edit.
 
-## Operator Rule 0 — no action without explicit order
+## Operator Rule 1 — no action without an explicit prompt
 
-A skipped or unanswered question is NOT consent. State the concrete plan and
-get an explicit go-ahead before any state-changing action, even a local and
-easily reversible one.
+A skipped or unanswered question is NOT consent. No action — reading,
+searching, or anything else — without an explicit prompt or permitted
+request. State-changing or not, it doesn't matter.
 
-## Operator Rule 1 — read this file and RESUME.md first
+## Operator Rule 2 — read this file and RESUME.md first
 
 Before doing anything else in this repo, read this CLAUDE.md and RESUME.md.
 Standing convention across the operator's repos for months — step one,
