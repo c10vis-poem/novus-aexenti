@@ -1,6 +1,6 @@
 # NovÆxenti — agent logic layer
 
-Canon name: **NovÆxenti**. Repo name: `novus-aexenti`. See `novae-xorpus/NAMING-CANON.md`.
+Canon name: **NovÆxenti**. Repo name: `novus-aexenti`. See `NovAExorpus/NAMING-CANON.md`.
 
 ## What this is
 
@@ -19,7 +19,7 @@ runs on, NovÆxopia is the action surface it drives.
             └─ Æyre        voice / vision daemon
 ```
 
-NovÆxorpus (novae-xorpus) is the data bank — orthogonal to this stack, feeds
+NovÆxorpus (NovAExorpus) is the data bank — orthogonal to this stack, feeds
 all layers.
 
 ## Conventions
